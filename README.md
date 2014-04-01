@@ -2,11 +2,11 @@
 
 * Tested on CentOS/RHEL 6.x x86_64
 
-## This is a modified version of the spec pulled from the source tarball available at:
+### What is this? 
 
-* http://http://haproxy.1wt.eu/
+* Spec file included with haproxy source finds itself causing trouble with CentOS / RHEL.
 
-## Default compile options
+### Default compile options
 
 * USE_PCRE=1 TARGET=linux26 ARCH=x86_64 USE_OPENSSL=1 USE_ZLIB=1
 
