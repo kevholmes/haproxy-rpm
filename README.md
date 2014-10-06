@@ -16,8 +16,9 @@
 	$ rpmdev-setuptree
 
 	$ git clone https://github.com/kevholmes/haproxy-rpm.git
+	$ spectool -R -g haproxy.spec
 	$ cp haproxy-rpm/haproxy.spec ~/rpmbuild/SPECS/
-	$ rpmbuild -vv -ba ~/rpmbuild/SPECS/haproxy.spec
+	$ rpmbuild -ba ~/rpmbuild/SPECS/haproxy.spec
 	$ cd ~/rpmbuild/RPMS/x86_64/
 	$ sudo yum install haproxy-1.5-devX.x86_64.rpm
 
