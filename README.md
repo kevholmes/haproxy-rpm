@@ -1,10 +1,11 @@
-# haproxy 1.5-dev branch RPM spec
+# haproxy 1.5 branch RPM spec
 
 * Tested on CentOS/RHEL 6.x x86_64
 
 ### What is this? 
 
 * Spec file included with haproxy source finds itself causing trouble with CentOS / RHEL.
+* When pushed to https://github.com/kevholmes/haproxy-rpm.git new builds appear here: https://packagecloud.io/carma/haproxy
 
 ### Default compile options
 
