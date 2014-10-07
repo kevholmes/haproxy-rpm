@@ -32,6 +32,9 @@ risking the system's stability.
 # We don't want any perl dependecies in this RPM:
 %define __perl_requires /bin/true
 
+# Skip building debug package
+%define debug_package %{nil}
+
 %build
 %{__make} USE_PCRE=1 DEBUG="" ARCH=%{_target_cpu} TARGET=linux26 USE_OPENSSL=1 USE_ZLIB=1
 
