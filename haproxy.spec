@@ -1,6 +1,6 @@
 Summary: HA-Proxy is a TCP/HTTP reverse proxy for high availability environments
 Name: haproxy
-Version: 1.5.4
+Version: 1.5.5
 Release: 1
 License: GPL
 Group: System Environment/Daemons
