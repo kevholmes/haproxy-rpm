@@ -35,8 +35,9 @@ risking the system's stability.
 # Skip building debug package
 %define debug_package %{nil}
 
+# USE_PCRE_JIT is disabled for CentOS 6.x you might want to enable USE_STATIC_PCRE depending on your situation.
 %build
-%{__make} USE_PCRE=1 DEBUG="" ARCH=%{_target_cpu} TARGET=linux26 USE_OPENSSL=1 USE_ZLIB=1
+%{__make} USE_PCRE=1 USE_PCRE_JIT=0 DEBUG="" ARCH=%{_target_cpu} TARGET=linux26 USE_OPENSSL=1 USE_ZLIB=1 USE_CPU_AFFINITY=1
 
 %install
 [ "%{buildroot}" != "/" ] && %{__rm} -rf %{buildroot}
