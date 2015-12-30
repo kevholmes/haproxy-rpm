@@ -5,7 +5,7 @@
 ### What is this? 
 
 * Spec file included with haproxy source finds itself causing trouble with CentOS / RHEL.
-* When pushed to https://github.com/kevholmes/haproxy-rpm.git new builds appear here: https://packagecloud.io/carma/haproxy
+* When changes are pushed to https://github.com/kevholmes/haproxy-rpm.git new RPMs build on this spec appear here: https://packagecloud.io/carma/haproxy
 
 ### Default compile options
 
